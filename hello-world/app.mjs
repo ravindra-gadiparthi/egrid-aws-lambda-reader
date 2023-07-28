@@ -7,8 +7,8 @@ import zlib from 'zlib';
 const zoom = 5;
 
 const s3 = new AWS.S3({
-    accessKeyId: "AKIAR6THXV4MJSITEFMK",
-    secretAccessKey: "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",
+    accessKeyId: "",
+    secretAccessKey: "",
     });
 
 const s3Bucket = 'egrid-subregions-cloudcafe'
